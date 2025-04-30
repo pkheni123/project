@@ -30,6 +30,7 @@ export function ForgotPassword({ onCancel }: ForgotPasswordProps) {
     }
   };
 
+  
   if (success) {
     return (
       <div className="mt-8 space-y-6">
